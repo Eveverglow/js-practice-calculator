@@ -24,7 +24,7 @@ body {
   justify-content: space-between;
   flex-wrap: wrap;
 }
-.button {
+button {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -40,7 +40,7 @@ body {
   height: 80px;
 }
 
-.button:hover {
+button:hover {
   background-color: #f5bc80;
 }
 
@@ -50,4 +50,24 @@ body {
 
 #equal:hover {
   background-color: #f2626b;
+}
+
+.display {
+  width: 260px;
+  color: white;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  flex-direction: column;
+  padding: 10px;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+.previous-operand {
+  font-size: 1.5rem;
+}
+
+.current-operand {
+  font-size: 2.5rem;
 }
